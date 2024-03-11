@@ -96,7 +96,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #000000;
+		background: #680f38;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1859,6 +1859,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: 1em;
 	}
 
 	
@@ -2830,6 +2831,14 @@ input, select, textarea {
 
 /* Icons */
 
+	.iconCalc {
+		display: flex;
+	}
+
+	.iconCalc .icon {
+		margin-right: 15px;
+	}
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -2852,6 +2861,8 @@ input, select, textarea {
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
 				}
+
+
 
 /* Menu */
 
@@ -3232,7 +3243,6 @@ input, select, textarea {
 		
 	}
 
-
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
@@ -3265,7 +3275,7 @@ input, select, textarea {
 				.wrapper > .inner {
 					width: 100%;
 				}
-				
+
 				.inner-main .typed {
 					font-weight: 100;
 		
@@ -3274,13 +3284,14 @@ input, select, textarea {
 				.inner-main h1 {
 					font-weight: 100;
 				}
+
 
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em;
+					padding: 3em 2em 1em 2em ;
 				}
 
 				.inner-main .typed {
@@ -3291,6 +3302,7 @@ input, select, textarea {
 				.inner-main h1 {
 					font-weight: 100;
 				}
+
 
 			}
 
@@ -3299,7 +3311,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #680f24;
+			background-color: #790125;
 		}
 
 		.wrapper.style1-alt {
@@ -4012,6 +4024,11 @@ input, select, textarea {
 
 				#intro p {
 					font-size: 1em;
+
+				}
+
+				#intro {
+					height: 100vh;
 				}
 
 			}
