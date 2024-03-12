@@ -2628,6 +2628,8 @@ input, select, textarea {
 		
 			.image.fit img {
 				width: 100%;
+				
+				
 			}
 
 		.image.main {
@@ -2639,6 +2641,43 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+
+			
+
+
+/* Carousel */
+
+.carousel-container {
+	position: relative;
+	left: 200px;
+	width: 60%;
+	overflow: hidden;
+}
+
+.carousel {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.carousel img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 480px) {
+	.carousel-container {
+		left: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.carousel-container {
+		left: 75px;
+	}
+}
+
+
 
 /* List */
 
@@ -3262,6 +3301,8 @@ input, select, textarea {
 			
 		}
 
+		
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
@@ -3304,6 +3345,12 @@ input, select, textarea {
 				}
 
 
+			}
+
+			@media screen and (max-width: 480px) {
+				.inner p {
+					font-size: 16px;
+				}
 			}
 
 		.wrapper.alt {

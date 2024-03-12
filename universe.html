@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gradiance.html" >Gradiance</a></li>
+				<li><a href="tictactoe.html" >TicTacToe</a></li>
+				<li><a href="cellar107.html" >Cellar107</a></li>
+				<li><a href="universe.html" class="active">Universe</a></li>
+			</ul>
+		</nav>
+	</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<!-- <h1 class="major">Elements</h1> -->
+							<!-- <span class="image fit"><img src="images/UniverseCover.png" alt="" /></span> -->
+							<div class="carousel-container">
+								<div class="carousel">
+									<img src="images/iPhone 14 Universe.png" alt="iPhone 15 Pro">
+									<img src="images/macbookandphone mockup.png" alt="Macbook and Phone Mockup">
+									<img src="images/ID cards universe.png" alt="ID Cards Universe">
+									<img src="images/iPhone 15 Pro.png" alt="Universe Logo">
+								</div>
+							</div>
+							<p>Since the groups for this study were predetermined, it was comparable to dealing with strangers in the workplace.
+
+								Creating a business concept that directly benefits the community was the project's main objective. The comfort in the physical community is decreasing due to the pandemic's aftereffects and the dominance of the internet world. When we refer to a physical community, we mean circumstances in which individuals are gathered in one location with the ability to interact and work towards a common goal. The social effects of online and distant learning have affected people's social abilities in general.
+								
+								Since our app is a social media platform, our approach may appear counterintuitive at first, but that's because it will be simple to draw students in the first place, and our primary goal with the app was to promote activities that would help to close the physical gap. </p>
+							<li><a href="https://maxerns.files.wordpress.com/2024/03/feedback.png" class="button">View Feedback</a></li>
+						    <li><a href="https://universe-app.netlify.app/" class="button">View Live Website</a></li>
+						</div>
+
+						
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Maksymilian Gunerka. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				const carousel = document.querySelector('.carousel');
+				let currentIndex = 0;
+				const slides = carousel.querySelectorAll('img');
+				const totalSlides = slides.length;
+			
+				setInterval(() => {
+					currentIndex = (currentIndex + 1) % totalSlides;
+					carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+				}, 4000); 
+			</script>
+
+	</body>
+</html>
